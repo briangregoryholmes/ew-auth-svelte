@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&display=swap');
+
+:root {
+	--background: #292929;
+	--grayOne: #e0e0e0;
+	--grayTwo: #938f99;
+	--greenOne: #69d38e;
+	--purpleOne: #d0bcff;
+	--purpleTwo: #534677;
+	--secondary-red-1: #dc6f43;
+	--secondary-green-1: #69d38e;
+	--primary-blue-2: #8c98f2;
+	--neutral-white-1: #e0e0e0;
+	--neutral-black-1: #979797;
+	--neutral-black-2: #595959;
+	--neutral-black-3: #292929;
+	--neutral-black-4: #191919;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	-webkit-tap-highlight-color: transparent;
+}
+
+body {
+	line-height: 1.5;
+	-webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+	display: block;
+	max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+	font: inherit;
+	color: inherit;
+}
+
+button {
+	border: none;
+	background: none;
+	cursor: pointer;
+	color: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	overflow-wrap: break-word;
+	color: inherit;
+	font-weight: 500;
+}
+
+#root,
+#__next {
+	isolation: isolate;
+}
+
+html,
+body {
+	height: 100%;
+	overscroll-behavior-y: contain;
+	background-color: var(--background);
+	color: var(--neutral-white-1);
+	font-family: 'Barlow', sans-serif;
+	letter-spacing: 0.4px;
+}
+
+*:focus {
+	outline: none;
+}
+
+a {
+	color: var(--neutral-white-1);
+}
